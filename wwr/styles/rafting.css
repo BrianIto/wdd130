@@ -1,0 +1,67 @@
+:root {
+  --var-primary-color: #f77f00;
+  --var-secondary-color: #003049;
+  --var-accent1-color: #fdfdfd;
+  --var-accent2-color: #333333d0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Protest Strike", display;
+  text-transform: uppercase;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero h1 {
+  text-align: center;
+  width: 100%;
+  padding: 1.25rem 0;
+  color: var(--var-primary-color);
+}
+
+.hero article p {
+  color: var(--var-accent1-color);
+  padding: 2rem;
+}
+
+p {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.hero h1 {
+  position: absolute;
+  font-size: 5rem;
+  background-color: var(--var-secondary-color);
+}
+
+.hero article {
+  top: 20rem;
+  margin: 3rem;
+  padding: 2rem;
+  background-color: var(--var-accent2-color);
+  position: absolute;
+}
+
+.hero h1 {
+  top: 0;
+}
+.hero article img {
+  width: auto;
+  float: right;
+  margin-left: 3rem;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h2,
+h3 {
+  color: var(--var-primary-color);
+}
