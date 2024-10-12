@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Contact - Whitewater Rafting Club</title>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Contact page for the Whitewater Rafting Company"
+    />
+    <meta name="author" content="Brian Ito" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/rafting.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="./images/wwr_logo.webp"
+        width="120"
+        alt="Whitewater Rafting Club Logo"
+      />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main class="contact-main-section">
+      <section class="form-section">
+        <h1>Get in touch</h1>
+        <p>Call us: <b>+55 92 98437-4357</b></p>
+        <p>E-mail us: <b>contact@whitewaterrafting.com</b></p>
+        <form>
+          <fieldset>
+            <legend>Contact us through form!</legend>
+            <label
+              >Name<br />
+              <input
+                type="text"
+                name="full-name"
+                placeholder="Eg: John Doe"
+                required
+                id="fullname"
+            /></label>
+            <label
+              >E-mail<br />
+              <input
+                type="email"
+                name="email"
+                placeholder="Eg: johndoe@mail.com"
+                required
+                id="email"
+            /></label>
+            <section class="check-group">
+              <label>
+                General Inquiry
+                <input
+                  type="radio"
+                  name="reservation_question"
+                  value="question"
+                  id="question"
+                /> </label
+              ><label>
+                Reservation Question
+                <input
+                  type="radio"
+                  name="reservation_question"
+                  value="reservation_question"
+                  id="reservation_question"
+                />
+              </label>
+              <label>
+                Website Suggestion
+                <input
+                  type="radio"
+                  required
+                  name="reservation_question"
+                  value="website_suggestion"
+                  id="website_suggestion"
+                />
+              </label>
+            </section>
+            <label
+              >Message<textarea required name="message" id="message"></textarea>
+            </label>
+            <section class="check-group">
+              <input type="checkbox" name="subscribe" id="subscribe" />
+              <label for="subscribe">
+                Please subscribe to our monthly newsletter
+              </label>
+            </section>
+            <button>Send message</button>
+          </fieldset>
+        </form>
+        <section class="images">
+          <img src="./images/img4.jpg" alt="Rafting" />
+          <img src="./images/img5.webp" alt="Rafting" />
+          <img src="./images/people.webp" alt="Rafting" />
+        </section>
+        <section class="address">
+          <p>
+            <b>Visit us at:</b><br />Rua Tokio, 44 - Parque 10 de Novembro
+            Manaus, Amazonas - Brazil
+          </p>
+        </section>
+      </section>
+      <section>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1332.1560464441739!2d-59.99586656624197!3d-3.0747173952477853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1af1c1c56081%3A0x6702662979d3acb9!2sR.%20Sendai%2C%2010%20-%20Parque%20Dez%20de%20Novembro%2C%20Manaus%20-%20AM%2C%2069054-308!5e0!3m2!1spt-BR!2sbr!4v1728770182432!5m2!1spt-BR!2sbr"
+          width="600"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+    <footer>
+      <p>Whitewater Rafting Club. 2024 &copy; - Made by Brian Ito<br/> <a target="_blank" href="https://app.moqups.com/dSvSkX5npR6T4EysFFbVcSW3zxve2W1X/view/page/ad64222d5">Link to the mockup in Moqups</a></a></p>
+      <a href="https://facebook.com" target="_blank"
+        ><img src="./images/icon_facebook.svg" width="24" alt="Facebook"
+      /></a>
+      <a href="https://instagram.com" target="_blank"
+        ><img src="./images/icon_instagram.svg" width="26" alt="Instagram"
+      /></a>
+      <a href="https://tiktok.com" target="_blank"
+        ><img src="./images/icon_tiktok.svg" width="24" alt="Tiktok"
+      /></a>
+    </footer>
+  </body>
+</html>
