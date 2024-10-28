@@ -178,7 +178,14 @@ textarea {
   border: 1px solid #aaa;
 }
 
-form button {
+input {
+  width: 100%;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+}
+button {
   background-color: var(--var-primary-color);
   padding: 10px 20px;
   border-radius: 8px;
@@ -235,4 +242,145 @@ div p {
   height: 90px;
   border-radius: 45px;
   object-fit: cover;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero h1 {
+  background-color: transparent;
+  font-size: 3rem;
+  background-color: #0000004f;
+}
+
+.hero-image {
+  width: 100%;
+  position: absolute;
+  filter: brightness(0.5);
+}
+
+.hero-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text h1 {
+  margin: 0;
+  padding-top: 15rem;
+  position: relative;
+}
+
+.form {
+  display: flex;
+  gap: 1rem;
+}
+
+.newsletter {
+  display: flex;
+  position: relative;
+  background-color: #003049;
+  color: #fff;
+  padding: 3rem;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter h1 {
+  margin: 0;
+}
+
+.hero-text button {
+  margin-top: 3rem;
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+  background-color: #003049;
+  color: white;
+  align-self: center;
+}
+
+.home-main-section {
+  background-color: #000;
+}
+
+.home-main-section a {
+  text-align: center;
+}
+
+.description {
+  display: grid;
+  margin-top: 18rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+  color: #fff;
+}
+
+.description h1 {
+  margin: 0;
+}
+
+.description > div > img {
+  margin: 0 36px;
+  width: calc(100% - 36px * 2);
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.description p {
+  margin-top: 0.25rem;
+  text-align: center;
+  width: 100%;
+}
+
+.trip-description {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 3rem;
+  margin: 5rem;
+  order: 1;
+}
+
+.trip-description:nth-child(even) {
+  grid-template-columns: 3fr 2fr;
+  text-align: right;
+}
+
+.trip-description:nth-child(even) section {
+  order: -1;
+}
+
+.trip-description img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+table {
+  text-align: center;
+  width: 90%;
+  font-family: "Source Sans 3", sans-serif;
+  border-collapse: collapse;
+  margin: 0 3rem;
+}
+
+table td {
+  padding: 12px;
+}
+
+table th {
+  padding: 0.75rem;
+  background-color: #fc0;
+}
+
+table tr:nth-of-type(even) td {
+  background-color: #f0f0f0;
+  align-self: center;
+}
+
+.contact {
+  text-align: center;
 }
